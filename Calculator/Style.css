@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    padding-top: 20vh;
+    place-items: center;
+}
+.calci{
+    width:40vw;
+    height: 60vh;
+    border-radius: 10px;
+    background-color:rgb(104, 104, 231);
+    display: grid;
+    padding:2rem;
+    gap:0.5rem;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+}
+.display{
+    text-align: end;
+    grid-column: 1/5;
+    height: 75px;
+    font-size: 25px;
+}
+.buttons{
+    border-radius: 5px;
+    font-size: 20px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.C{
+    grid-column: 1/3;
+    background-color: red;
+}
+.E{
+    background-color: rgb(52, 229, 52);
+    grid-column: 3/5;
+} 

@@ -1,0 +1,96 @@
+*{
+    margin:0;
+}
+header{
+    align-items: center;
+    align-content: center;
+    background-color: aqua;
+    height: 150px;
+}
+.box{
+    width: 80vw;
+    padding: 20px;
+    margin: 5px;
+    border: 5px;
+    border-radius: 10px;
+    background-color:rgb(248, 242, 242);
+}
+.main{
+    padding: 2.5vw 10vw 2.5vw 10vw;
+}
+.hyper{
+    padding: 10px;
+    margin-left: 5px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.hpbox{
+    background-color:rgb(19, 243, 243);
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.profile{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    float:left;
+    margin:20px;
+}
+.about{
+    height: 300px;
+}
+.intro{
+    padding-top: 60px;
+    text-align: center;
+}
+.info{
+    padding: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    padding: 5px;;
+    width:100vw;
+    font: bolder;
+    font-size: 30px;
+    text-align: center;
+}
+h1{
+    color: blue;
+    padding-bottom: 10px;
+}
+.download{
+    text-decoration: none;
+    color: white;
+    padding:5px;
+    font-size: 20px;
+    background-color: black;
+}
+.projects{
+    height: 690px;;
+}
+.calci{
+    padding: 20px;
+    margin-left: 250px;
+    width: 400px;
+    height: 250px;
+}
+.web{
+    margin-top: 10px;
+    padding: 10px;
+    width: 380px;
+    height: 250px;
+}
+footer{
+    height: 40px;
+    padding-top: 13px;
+    font-size: 17px;
+    background-color: aqua;
+}
